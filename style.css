@@ -1,1 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
+body {
+    background-image: url("forbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 16px;
+    width: fit-content;
+    margin: 2rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo-card {
+    background-color: black;
+    color: wheat;
+    padding: 2%;
+    margin: 2rem auto;
+    width: fit-content;
+    text-align: center;
+    border-radius: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s ease;
+}
+
+.photo img {
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.photo img:hover {
+    transform: rotateX(360deg);
+}
+
+.photo-card:hover {
+    transform: rotateZ(360deg);
+}
