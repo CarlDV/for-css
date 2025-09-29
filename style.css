@@ -34,7 +34,7 @@ body {
 
 .content:hover {
     transform: translateY(-5px);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .content img {
