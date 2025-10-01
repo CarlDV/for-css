@@ -1,48 +1,76 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url("forbg.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f8fc;
+  color: #111;
 }
 
-h1 {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 1%;
-    border-radius: 16px;
-    width: fit-content;
-    margin: 2rem auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+header {
+  width: 100%;
+  padding: 20px 60px;
 }
 
-.photo-card {
-    background-color: black;
-    color: wheat;
-    padding: 2%;
-    margin: 2rem auto;
-    width: fit-content;
-    text-align: center;
-    border-radius: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: 0.3s ease;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.photo img {
-    border-radius: 16px;
-    transition: 0.3s ease;
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }
 
-.photo img:hover {
-    transform: rotateX(360deg);
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
-.photo-card:hover {
-    transform: rotateZ(360deg);
+nav a:hover {
+  color: #00aaff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+
+.content .intro {
+  font-size: 2rem;
+  color: gray;
+  margin-bottom: 0.1rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+  color: #6c7a89;
+  margin: 10px 0 20px;
+}
+
+.contact p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #f5f8fc;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
 }
