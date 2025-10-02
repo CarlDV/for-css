@@ -32,7 +32,6 @@ This project is a group activity designed to demonstrate comprehensive understan
 - `.content` class styling
 
 #### 3. Inline CSS (directly in HTML elements)
-- Individual styling for each team member's image borders
 - Custom font-family declarations for personalized descriptions
 
 ### CSS Properties Demonstrated
