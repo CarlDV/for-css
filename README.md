@@ -22,7 +22,6 @@ This project is a group activity designed to demonstrate comprehensive understan
 
 #### 1. External CSS (`style.css`)
 - Main stylesheet containing global styles
-- Grid layout system for responsive design
 - Animation keyframes and transitions
 - Hover effects and transforms
 
