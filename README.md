@@ -72,7 +72,8 @@ for-css/
 ├── david2.jpg         # Team member photo
 ├── jacob copy.png     # Team member photo
 ├── onin.jpg           # Team member photo
-├── test.png           # Activity description and rubric image
+├── test.png           # Team member photo
+├── act.png            # Activity description
 └── README.md          # This file
 ```
 
