@@ -80,7 +80,7 @@ for-css/
 
 This project fulfills all requirements of the CSS properties activity.
 
-## Activity Description & Rubric
+## Activity Description
 
 ![Activity Description and Rubric](act.png)
 
