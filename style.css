@@ -1,10 +1,23 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: pulse 4s ease infinite;
 }
 
 .all {
     text-align: center;
     padding: 1rem;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .all h1 {
@@ -38,6 +51,11 @@ body {
     height: 450px;
     object-fit: cover;
     display: block;
+    transition: 1s ease;
+}
+
+.content img:hover {
+    transform: translateY(-30px);
 }
 
 .content h3,
