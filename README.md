@@ -63,17 +63,6 @@ This project is a group activity designed to demonstrate comprehensive understan
 - **Pseudo-class selectors**: `:hover`
 - **Attribute selectors**: Styling through various HTML attributes
 
-#### Advanced CSS Features
-- **CSS Grid**: `grid-template-columns` with `repeat(auto-fit, minmax())`
-- **Flexbox properties**: For layout management
-- **Transitions**: Smooth animations on hover (0.4s, 1s ease)
-- **Transforms**: `scale()`, `translateY()` for interactive effects
-- **Animations**: `@keyframes pulse` for continuous animation
-- **Box model**: Padding, margin, border-radius
-- **Box-shadow**: Multiple shadow effects
-- **Overflow**: Hidden content management
-- **Opacity**: Fade in/out effects
-
 ## Project Structure
 
 ```
