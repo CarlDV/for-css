@@ -22,7 +22,6 @@ This project is a group activity designed to demonstrate comprehensive understan
 
 #### 1. External CSS (`style.css`)
 - Main stylesheet containing global styles
-- Grid layout system for responsive design
 - Animation keyframes and transitions
 - Hover effects and transforms
 
@@ -44,7 +43,7 @@ This project is a group activity designed to demonstrate comprehensive understan
 - `font-variant`: Small-caps transformation
 
 #### Text Effects
-- `text-align`: Center alignment
+- `text-align`: alignments
 - `text-decoration`: Underline effects
 - `text-transform`: Uppercase transformation
 - `text-shadow`: Shadow effects with offset and blur
@@ -79,16 +78,9 @@ for-css/
 
 ## Activity Requirements
 
-This project fulfills all requirements of the CSS properties activity, including:
+This project fulfills all requirements of the CSS properties activity.
 
-✅ Implementation of all three CSS methods (inline, internal, external)
-✅ Demonstration of font properties (family, size, style, weight, variant)
-✅ Application of text effects (alignment, decoration, transformation, shadow)
-✅ Usage of multiple color definition methods (RGB, hex, RGBA, named)
-✅ Implementation of various selector types (element, class, ID, pseudo-class)
-✅ Advanced CSS features (animations, transitions, transforms, grid, flexbox)
-
-## Activity Description & Rubric
+## Activity Description
 
 ![Activity Description and Rubric](act.png)
 

@@ -79,9 +79,10 @@ body {
 }
 
 .alignments {
-    margin: 15rem auto;
+    margin: 18rem auto;
     background-color: aqua;
     width: fit-content;
     border-radius: 15px;
     padding: 1%;
+
 }
