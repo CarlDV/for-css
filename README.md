@@ -101,34 +101,7 @@ This project fulfills all requirements of the CSS properties activity, including
 
 ## Activity Description & Rubric
 
-![Activity Description and Rubric](test.png)
+![Activity Description and Rubric](act.png)
 
 *The complete activity description, requirements, and evaluation rubric can be found in the image above.*
 
-## Technologies Used
-
-- HTML5
-- CSS3
-- GitHub Pages (for deployment)
-
-## How to View
-
-1. **Online**: Visit [https://carldv.github.io/for-css/](https://carldv.github.io/for-css/)
-2. **Locally**: 
-   - Clone this repository
-   - Open `index.html` in a web browser
-
-## Key CSS Concepts Covered
-
-- Cascading and specificity
-- Box model and layout
-- Responsive design with CSS Grid
-- Interactive states and pseudo-classes
-- CSS animations and transitions
-- Typography and text styling
-- Color theory and application
-- Modern CSS best practices
-
----
-
-*This project was created as part of a CSS fundamentals learning activity.*
