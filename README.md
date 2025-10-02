@@ -79,14 +79,7 @@ for-css/
 
 ## Activity Requirements
 
-This project fulfills all requirements of the CSS properties activity, including:
-
-✅ Implementation of all three CSS methods (inline, internal, external)
-✅ Demonstration of font properties (family, size, style, weight, variant)
-✅ Application of text effects (alignment, decoration, transformation, shadow)
-✅ Usage of multiple color definition methods (RGB, hex, RGBA, named)
-✅ Implementation of various selector types (element, class, ID, pseudo-class)
-✅ Advanced CSS features (animations, transitions, transforms, grid, flexbox)
+This project fulfills all requirements of the CSS properties activity.
 
 ## Activity Description & Rubric
 
