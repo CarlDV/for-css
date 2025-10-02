@@ -1,23 +1,27 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation: pulse 4s ease infinite;
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 20px;
+    background-color: black;
+    padding: 0.5%;
+    border-radius: 16px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
 .all {
     text-align: center;
     padding: 1rem;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.02);
-    }
-    100% {
-        transform: scale(1);
-    }
 }
 
 .all h1 {
@@ -34,7 +38,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 2rem;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .content {
@@ -79,10 +83,25 @@ body {
 }
 
 .alignments {
-    margin: 18rem auto;
+    margin: 22rem auto;
     background-color: aqua;
     width: fit-content;
     border-radius: 15px;
     padding: 1%;
 
+}
+
+.iframe {
+    margin-top: 20rem;
+    scroll-margin-top: 64px;
+
+}
+
+.iframe iframe {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 16px;
 }
