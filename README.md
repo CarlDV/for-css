@@ -44,7 +44,7 @@ This project is a group activity designed to demonstrate comprehensive understan
 - `font-variant`: Small-caps transformation
 
 #### Text Effects
-- `text-align`: Center alignment
+- `text-align`: alignments
 - `text-decoration`: Underline effects
 - `text-transform`: Uppercase transformation
 - `text-shadow`: Shadow effects with offset and blur
