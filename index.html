@@ -3,50 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Facebook-like Page</title>
+    
+    <!-- Internal CSS -->
     <style>
-        body
-        {
+        body {
+            font-family: Arial, sans-serif; /* Font family 1 */
+            background-color: #f0f2f5;
+            color: #050505;
+        }
+        .header {
+            background-color: #3b5998;
+            color: white;
             text-align: center;
-            background: hsl(114, 56%, 77%);
-            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            font-family: Verdana, sans-serif; /* Font family 2 */
+            text-shadow: 2px 2px 4px #000000; /* Text shadow */
+        }
+        .post {
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: "Times New Roman", serif; /* Font family 3 */
+        }
+        #profile-name {
+            font-weight: bold; /* Font weight */
+            color: #365899; /* Color name */
+        }
+        .post-content {
+            text-align: justify; /* Text alignment */
+            font-size: 16px; /* Font size */
+        }
+        .like-button {
+            color: rgb(66, 103, 178); /* RGB color */
+            text-transform: uppercase; /* Text transform */
+            text-decoration: none; /* Text decoration */
         }
     </style>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
 </head>
 <body>
 
-       
-    <div class="content">
-        <div class="card">
-            <h1>MY PORTFOLIO</h1>
-            <img src="cat.png" width="500">
-        </div>
-        <div class="card">
-            <h1 style="text-shadow: 2px 2px blue;">About me</h1>
-            <p>I'm <strong>Jacob Joren L.</strong></p>
-            <p>I am a C# programmer (MonoGame/XNA) and a web developer (HTML/CSS/JS)</p>
-        </div>
-        <div class="card"> 
-        <h2>My Skills</h2>
-        <ul>
-            <li>Coding (C++, C#, Python, GDScript)</li>
-            <li>Web dev (HTML, CSS, JS)</li>
-            <li style="text-decoration: red wavy underline;">Drawing</li>
-        </ul>
-        </div>
-        <div class="card">
-        <h2>My Projects</h2>
-        <p>I'm working on my game written in C# using MonoGame Framework (same framework used by Stardew Valley and Celeste)</p>
-        <p> <a href="https://github.com/CatmeowSoftwares/MyGame" target="_blank">Here</a></p>
-        </div>
-        <div class="card">
-        <h2>Contact Me!</h2>
-        <p>Email: jorenjacob098@gmail.com</p>
-        <p>Phone Number: +63 915 916 4983</p>
-        <p>Discord: catmeow.png</p>
-        <p>GitHub: <a href="https://github.com/CatmeowSoftwares">CatmeowSoftwares</a></p>
-        </div>
+    <div class="header">
+        <h1>Fakebook</h1>
     </div>
+
+    <div class="post">
+        <div id="profile-name">Mark Justine D. Valdez</div>
+       
+
+    <div class="post">
+        <div id="profile-name">About Me</div>
+        <p class="post-content">
+            <span style="background-color: chartreuse;">Pinaka Green Flag Sa Buong Mundo At pinaka masunuring bata at pinaka matino sa buong mundo </span>
+        </p>
+        <a href="#" class="like-button">Like</a>
+    </div>
+
 </body>
 </html>
