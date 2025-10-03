@@ -1,35 +1,14 @@
+/* styles.css (External CSS) */
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: rgb(43, 43, 43);
+    background-color: #f0f0f0; /* Hex Color */
 }
-header {
-    background-color: pink;
-    padding: 15rem;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba (0, 0, 0, 0.2);   
+
+h1 {
+    font-size: 2em; /* Font Size */
 }
-section {
-    padding: 2rem;
-    margin: 1rem 0;
-    text-align: center;
-}
-#intro img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-}
-#intro h2 {
-    color: red;
-    margin-bottom: 1rem;
-}
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: white;
-}
-a {
-    transition: color 0.3 ease;
+
+p {
+    color: rgb(100, 100, 100); /* RGB Color */
+    line-height: 1.6; /* Font Property */
+    text-decoration: underline; /* Text Decoration */
 }
