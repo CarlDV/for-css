@@ -20,5 +20,5 @@ This project fulfills all requirements of the CSS properties activity.
 
 ![Activity Description and Rubric](act.png)
 
-*The complete activity description, requirements, and evaluation rubric can be found in the image above.*
+*The complete activity description and requirements can be found in the image above.*
 
