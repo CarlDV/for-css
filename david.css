@@ -1,15 +1,17 @@
 body {
     background-image: url("stars-13910.gif");
+    background-repeat: no-repeat;
 }
 
 .fb {
-    width: 51rem;
+    width: 54rem;
     max-width: 100%;
     margin: 1rem auto;
-    background-color: rgba(177, 217, 252, 0.63);
+    backdrop-filter: blur(7px);
     padding: 1%;
     border-radius: 2rem;
     box-sizing: border-box;
+    color: wheat;
 }
 
 .fb ul {
@@ -20,7 +22,7 @@ body {
 }
 
 .fb a {
-    color: rgb(92, 1, 1);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
