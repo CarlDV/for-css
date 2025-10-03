@@ -75,14 +75,14 @@ footer {
 }
 
  .gif-container {
-     width: 100px; /* Adjust as needed */
-     margin: 20px auto; /* Center the GIF */
+     width: 100px; 
+     margin: 20px auto; 
      border: 1px solid #23c979;
      box-shadow: 0 0 5px #b00d0dbb;
-     overflow: hidden; /* Prevent potential overflow issues */
+     overflow: hidden; 
  }
  img {
-     width: 50%; /* Make the GIF responsive within its container */
+     width: 50%; 
      height: auto;
-     display: block; /* Remove extra spacing */
+     display: block; 
  }
