@@ -1,7 +1,11 @@
+body {
+    background-image: url("stars-13910.gif");
+}
+
 .fb {
     max-width: 50rem;
     margin: 1rem auto;
-    background-color: rgb(177, 217, 252);
+    background-color: rgba(177, 217, 252, 0.63);
     padding: 1%;
     border-radius: 2rem;
 }
