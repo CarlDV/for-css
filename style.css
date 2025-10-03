@@ -1,0 +1,38 @@
+body {
+    background-image: url("stars-13910.gif");
+}
+
+.fb {
+    width: 51rem;
+    max-width: 100%;
+    margin: 1rem auto;
+    background-color: rgba(177, 217, 252, 0.63);
+    padding: 1%;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+.fb ul {
+    font-family: cursive;
+    text-align: left;
+    margin: auto;
+    width: fit-content;
+}
+
+.fb a {
+    color: rgb(92, 1, 1);
+    text-decoration: none;
+}
+
+.eve {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.eve .fb {
+    margin: 0;
+    width: 35rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
