@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', 'Verdana', 'Georgia', sans-serif;
+  background-color: #22a0f4ec;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #55c410, #ff85a2);
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #0008ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.intro img {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #3498db;
+}
+
+.intro h2 {
+  color: #2c3e50;
+}
+
+.intro p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.highlight {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fa6000;
+}
+
+footer {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #00ff48;
+  color: #ff0000;
+}
+
+ .gif-container {
+     width: 100px; /* Adjust as needed */
+     margin: 20px auto; /* Center the GIF */
+     border: 1px solid #23c979;
+     box-shadow: 0 0 5px #b00d0dbb;
+     overflow: hidden; /* Prevent potential overflow issues */
+ }
+ img {
+     width: 50%; /* Make the GIF responsive within its container */
+     height: auto;
+     display: block; /* Remove extra spacing */
+ }
