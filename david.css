@@ -1,0 +1,20 @@
+body {
+    background-color: bisque;
+}
+
+.intro {
+    background-image: url("david.png");
+    background-position: center;
+    color: wheat;
+    padding: 2%;
+    margin: 3rem auto;
+    width: fit-content;
+    border-radius: 1rem;
+}
+
+.intro p {
+    background-color: antiquewhite;
+    color: black;
+    padding: 2%;
+    border-radius: 0.5rem;
+}

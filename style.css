@@ -10,14 +10,19 @@ nav {
     position: fixed;
     top: 20px;
     background-color: black;
-    padding: 0.5%;
+    padding: 0.8%;
     border-radius: 16px;
+    transition: 0.3s ease;
 }
 
 nav a {
     display: block;
     color: white;
     text-decoration: none;
+}
+
+nav:hover {
+    transform: scale(1.2);
 }
 .all {
     text-align: center;
