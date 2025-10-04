@@ -111,3 +111,8 @@ nav:hover {
     border: none;
     border-radius: 16px;
 }
+
+.iframe a {
+    text-decoration: none;
+    color: black;
+}
