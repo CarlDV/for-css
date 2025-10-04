@@ -114,3 +114,13 @@ nav:hover {
     text-decoration: none;
     color: black;
 }
+
+@keyframes upndown {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-40px); }
+  100% { transform: translateY(0); }
+}
+
+.up {
+  animation: upndown 1s ease-in-out infinite;
+}
