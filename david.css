@@ -37,3 +37,8 @@ body {
     max-width: 100%;
     box-sizing: border-box;
 }
+
+nav img {
+    border-radius: 20%;
+    position: fixed;
+}
