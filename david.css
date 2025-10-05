@@ -1,6 +1,8 @@
 body {
     background-image: url("stars-13910.gif");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .fb {
@@ -11,6 +13,29 @@ body {
     padding: 1%;
     border-radius: 2rem;
     color: wheat;
+    transition: 0.3s ease-in-out;
+}
+
+.int {
+    animation: int2 1s ease infinite;
+}
+
+@keyframes int2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fb:hover {
+    transform: scale(1.05);
 }
 
 .fb ul {
@@ -33,7 +58,7 @@ body {
 
 .eve .fb {
     margin: 0;
-    width: 35rem;
+    width: 50%;
     max-width: 100%;
     box-sizing: border-box;
 }
