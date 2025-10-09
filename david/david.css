@@ -1,31 +1,29 @@
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 98vh;
-    background-image: url('bg.gif');
-    background-repeat: no-repeat;
+    background: url('woosh.gif') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .box {
-    margin: auto;
+    margin-top: 9%;
     text-align: center;
-    padding: 1.3%;
-    padding-right: 8%;
-    padding-left: 8%;
-    max-width: 100%;
-    backdrop-filter: blur(30px);
+    padding: 2%;
+    max-width: 90%;
+    backdrop-filter: blur(8px);
     border-radius: 16px;
     color: wheat;
-    background-color: rgba(29, 43, 38, 0.322);
+    background-color: rgba(29, 43, 38, 0.35);
     text-shadow: 2px 2px 5px black;
-    font-family: Arial, Helvetica, sans-serif; 
 }
 
-.box h1, .box p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.box h1, 
+.box p {
     font-weight: bold;
     background: linear-gradient(to right, #ffaa40, #000000, #ffffff);
     background-size: 200% auto;
@@ -34,13 +32,12 @@ body {
     animation: gradientAnimation 5s ease infinite;
 }
 
-.box .sol {
+.sol {
     border-radius: 50%;
     object-fit: cover;
     transition: 1s ease-in-out;
 }
-
-.box .sol:hover {
+.sol:hover {
     border-radius: 16px;
     width: 300px;
     height: 300px;
@@ -50,27 +47,41 @@ body {
     margin-top: 15px;
 }
 
-.socials a {
-    text-decoration: none;
-    color: aquamarine;
-}
-
 .socials img {
     width: 30px;
     padding: 2%;
-    background-color: #0000006c;
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 16px;
+    transition: 0.3s;
 }
-
-@keyframes gradientAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+.socials img:hover {
+    transform: scale(1.1);
 }
 
 .highlight {
     text-transform: uppercase;
     font-variant: small-caps;
     color: #ffcc00;
-    font-size: 1rem;
+}
+
+.justify {
+    text-align: justify;
+    font-family: 'Courier New', monospace;
+    width: 70%;
+    color: wheat;
+    text-shadow: 2px 2px 4px black;
+}
+
+.right {
+    text-align: right;
+    font-family: 'Courier New', monospace;
+    width: 70%;
+    color: wheat;
+    text-shadow: 2px 2px 4px black;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
